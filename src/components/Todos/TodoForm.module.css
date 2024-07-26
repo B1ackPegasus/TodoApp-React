@@ -1,0 +1,36 @@
+.formToDo{
+    width:22em;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3dvh;
+    height:3em;
+    justify-content: space-between;
+
+
+}
+
+.toDoInput{
+    height:3em;
+    width: 14em;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid  #aa512f ;
+    color:black;
+    font-size: 1.2em;
+}
+
+.toDoInput:focus{
+    outline: none;
+}
+
+.buttonInput{
+    height:2em;
+    width:3.5em;
+    font-size: 1.2em;
+    color:black;
+    background-color: #ede7cf;
+    border: 2px solid #aa512f ;
+}
+.buttonInput:hover{
+    background-color: #c7b198;
+}

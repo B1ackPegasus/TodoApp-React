@@ -1,0 +1,60 @@
+.todo{
+    display: flex;
+    flex-direction: row;
+    background-color:#ede7cf;
+    width: 20em;
+    min-height: 6em;
+    max-height: 8em;
+    margin: 0 0 4vh 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: justify;
+    border: 2px solid #aa512f;
+}
+.done{
+    background-color: #dfd8c8; ;
+    text-decoration: line-through;
+}
+
+.textInToDo{
+    margin:20px;
+    font-size: 1em;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    width: 90%;
+    padding-right: 10px;
+
+}
+.icon{
+    align-self: center;
+    margin-left:  1vw;
+    width: 10%;
+    min-width: 20px;
+    flex-shrink: 0;
+    color:darkred;
+}
+.buttonsDeleteRight{
+    display: flex;
+    padding-right:1em;
+    flex-direction: row;
+
+}
+.buttonsDeleteRight button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    color:black;
+}
+
+.buttonsDeleteRight button:nth-child(1):hover{
+    color:darkgreen;
+    font-size: 2em;
+}
+
+.buttonsDeleteRight button:nth-child(2):hover{
+    color:darkred;
+    font-size: 2em;
+}
+
+

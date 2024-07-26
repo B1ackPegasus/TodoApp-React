@@ -1,0 +1,6 @@
+.buttonsPanel{
+    height:6em;
+    display: flex;
+    width:6.5em;
+    justify-content: space-between;
+}

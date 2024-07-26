@@ -1,0 +1,10 @@
+.divTodoList{
+    overflow-y: auto;
+    max-height: 60vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+    .divTodoList::-webkit-scrollbar {
+    display: none;
+}
