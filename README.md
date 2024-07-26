@@ -6,7 +6,7 @@ Real-Time Updates: The app dynamically updates the list in real-time as you add 
 Mark as done : By simple click on tick button, you can mark it as completed and if want you can press it one more time to mark task as uncompleted again. \
 Calculate the amount of done tasks: After you checked it as completed it will show you how many tasks you have done already . \
 Delete All ToDos: By pressing refresh button. \
-Delete all completed Todos : By pressing "delete all" button. \
+Delete all completed Todos : By pressing "delete all" button.
 
 ## ToDo App 
 <img width="567" alt="toDoApp" src="https://github.com/user-attachments/assets/e77a7eb2-2637-4946-b051-302a1f331947">
